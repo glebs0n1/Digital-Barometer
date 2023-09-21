@@ -11,13 +11,12 @@ Before proceeding, make sure you have the following components installed on your
 - [XAMPP](https://www.apachefriends.org/index.html) (to run the PHP web server)
 
 ## Front-end (React)
-<br>1. Open a command prompt (terminal).
-<br>2. Navigate to the folder with the front-end code:
-<br>Install dependencies:
-<br>Start the development server:
-npm install 
-<br>npm start
-<br> The Front-End will be accessible at http://localhost:3000.
+<BR>1. Open a command prompt (terminal).
+<BR>2. Navigate to the folder with the front-end code:
+<BR>npm install (to install dependencies) 
+<BR>npm start (for start the development server)
+<BR>The Front-End will be accessible at http://localhost:3000.
+
 
 ## Back-end (PHP)
 <br>Place your PHP code in the directory C:\xampp\htdocs\ (or in the appropriate directory if you are using a different web server).
