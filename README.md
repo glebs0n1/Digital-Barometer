@@ -4,36 +4,39 @@ Check the current weather conditions in Vilnius and Nida
 # Instructions for building and running a project
 This file contains detailed instructions on how to build and run your project consisting of a Front-End: written in React and a Back-End completed in PHP.
 ## Requirements
-Before you start, make sure you have the following components installed on your computer:
+Before proceeding, make sure you have the following components installed on your computer:
+
 - [Node.js](https://nodejs.org/) (for front-end)
 - [PHP](https://www.php.net/) (for back-end)
 - [XAMPP](https://www.apachefriends.org/index.html) (to run the PHP web server)
 
 ## Front-end (React)
-1. Open a command prompt (terminal).
-2. Navigate to the folder with the front-end code:
-Install the dependencies:
-npm install (Start the development server:)
-run React project with:
-npm start (Front-end will be available at http://localhost:3000.)
+<br>1. Open a command prompt (terminal).
+<br>2. Navigate to the folder with the front-end code:
+<br>Install dependencies:
+<br>Start the development server:
+npm install 
+<br>npm start
+<br> The Front-End will be accessible at http://localhost:3000.
 
 ## Back-end (PHP)
-Place your PHP code in the directory C:\xampp\htdocs\ (or in the appropriate directory if you are using a different web server).
-Start Apache in XAMPP.
-Back-End will be available at http://localhost/.
+<br>Place your PHP code in the directory C:\xampp\htdocs\ (or in the appropriate directory if you are using a different web server).
+<br> Start Apache: In the XAMPP Control Panel, to start the Apache web server, simply click the "Start" button next to "Apache." 
+<br> The Back-End will be accessible at http://localhost/.
 
 ## Testing
-You can run unit tests for both parts of your application:
-For the Front-End:
-run test with:(npm test)
 
-## Docker
-To create a Docker container:
-Create a Dockerfile in the root of your project.
-Build a Docker image:
-docker build -t your-image-name .
-Start the container:
+<br> npm test (for running test)
 
-docker run -p 8080:80 your-image-name
-Front-end and back-end will be available at http://localhost:8080.
+## Docker Containerization (Optional)
+<br>To containerize the project using Docker:
+
+<br>Create a Dockerfile at the root of your project.
+
+<br>Build a Docker image:
+<br>docker build -t your-image-name .
+<br>Start a Docker container:
+
+<br>docker run -p 8080:80 your-image-name
+<br>Both the Front-End and Back-End will be accessible at http://localhost:8080.
 
