@@ -3,7 +3,6 @@
 
 <BR>1. Open a command prompt (terminal).
 <BR>2. Navigate to the folder with the front-end code:
-<BR>Install dependencies:
-<BR>Start the development server: npm install
-<BR>npm start
+<BR>npm install (to install dependencies) 
+<BR>npm start(for start the development server)
 <BR>The Front-End will be accessible at http://localhost:3000.
