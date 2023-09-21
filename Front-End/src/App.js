@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 const weatherIcons = {
+<<<<<<< HEAD
     stormy: '/images/stormy.png',
     rain: '/images/rain.png',
     change: '/images/change.png',
@@ -12,6 +13,17 @@ const weatherIcons = {
     cloudy: '/images/cloudy.png',
     clear: '/images/sunny.png',
     "light rain shower": '/images/rain.png',
+=======
+  stormy: '/images/stormy.png',
+  rain: '/images/rain.png',
+  change: '/images/change.png',
+  fair: '/images/fair.png',
+  verydry: '/images/verydry.png',
+  sunny: '/images/sunny.png',
+  cloudy: '/images/cloudy.png',
+  clear: '/images/sunny.png',
+  "light rain shower": '/images/lightrainshower.png',
+>>>>>>> ac3bd1701ea33cc55bb1a074142e749169494fc7
 };
 
 function App() {
