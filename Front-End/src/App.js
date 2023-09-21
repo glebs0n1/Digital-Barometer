@@ -2,6 +2,18 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
+const weatherIcons = {
+  stormy: '/images/stormy.png',
+  rain: '/images/rain.png',
+  change: '/images/change.png',
+  fair: '/images/fair.png',
+  verydry: '/images/verydry.png',
+  sunny: '/images/sunny.png',
+  cloudy: '/images/cloudy.png',
+  clear: '/images/sunny.png',
+  "light rain shower": '/images/lightrainshower.png',
+};
+
 function App() {
   const [weatherData, setWeatherData] = useState({});
   const [location, setLocation] = useState('Vilnius');
