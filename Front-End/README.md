@@ -5,7 +5,7 @@
 
 2. Navigate to the folder with the front-end code:
 
-   cd C:\Users\gleb\Desktop\Digital_Barometr\Front-End
+ ...Digital_Barometr\Front-End
 Install the dependencies:
 npm install (Start the development server:)
 
