@@ -1,30 +1,50 @@
- Getting Started with Create React App
+# Instructions for building and running a project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This file contains detailed instructions on how to build and run your project consisting of a Front-End: written in React and a Back-End completed in PHP.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+Before you start, make sure you have the following components installed on your computer:
 
-### `npm start`
+- [Node.js](https://nodejs.org/) (for front-end)
+- [PHP](https://www.php.net/) (for back-end)
+- [XAMPP](https://www.apachefriends.org/index.html) (to run the PHP web server)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Front-end (React)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open a command prompt (terminal).
 
-### `npm test`
+2. Navigate to the folder with the front-end code:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   cd C:\Users\gleb\Desktop\Digital_Barometr\Front-End
+Install the dependencies:
+npm install (Start the development server:)
 
-### `npm run build`
+npm start (Front-end will be available at http://localhost:3000.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Back-end (PHP)
+Place your PHP code in the directory C:\xampp\htdocs\ (or in the appropriate directory if you are using a different web server).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start Apache in XAMPP.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Back-End will be available at http://localhost/.
+
+Testing
+You can run unit tests for both parts of your application:
+
+For the Front-End:
+
+bash
+cd C:\Users\gleb\Desktop\Digital_Barometr\Front-End
+npm test
+
+## Docker
+To create a Docker container:
+
+Create a Dockerfile in the root of your project.
+Build a Docker image:
+docker build -t your-image-name .
+Start the container:
+
+docker run -p 8080:80 your-image-name
+Front-end and back-end will be available at http://localhost:8080.
