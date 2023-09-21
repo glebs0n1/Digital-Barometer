@@ -25,18 +25,14 @@ npm install
 <br> The Back-End will be accessible at http://localhost/.
 
 ## Testing
-
 <br> npm test (for running test)
 
 ## Docker Containerization (Optional)
 <br>To containerize the project using Docker:
-
 <br>Create a Dockerfile at the root of your project.
-
 <br>Build a Docker image:
 <br>docker build -t your-image-name .
 <br>Start a Docker container:
-
 <br>docker run -p 8080:80 your-image-name
 <br>Both the Front-End and Back-End will be accessible at http://localhost:8080.
 
