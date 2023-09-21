@@ -11,7 +11,7 @@ const weatherIcons = {
   sunny: '/images/sunny.png',
   cloudy: '/images/cloudy.png',
   clear: '/images/sunny.png',
-  "light rain shower": '/images/lightrainshower.png',
+  "light rain shower": '/images/rain.png',
 };
 
 function App() {
