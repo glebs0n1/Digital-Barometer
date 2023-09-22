@@ -12,7 +12,7 @@ Before proceeding, make sure you have the following components installed on your
 
 ## Front-end (React)
 <BR>1. Open a command prompt (terminal).
-<BR>2. Navigate to the folder with the front-end code:
+<BR>2. Navigate to the folder with the front-end code: digital-barometer
 <BR>npm install (to install dependencies) 
 <BR>npm start (for start the development server)
 <BR>The Front-End will be accessible at http://localhost:3000.
